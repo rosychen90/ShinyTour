@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ShinyTour_Web"
+  id="myeclipse.1331895937795"
+  context-root="/ShinyTour_Web"
+  j2ee-spec="5.0"
+  archive="ShinyTour_Web.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

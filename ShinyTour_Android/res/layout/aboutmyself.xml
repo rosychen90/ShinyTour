@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/back_publish1"
+    android:orientation="vertical" >
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+ 		<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/UserHead" />
+       		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="用户名："
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+           	android:id="@+id/UserName"
+           	android:paddingTop="10dp"
+           	android:textSize="20sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/bolangxian3" >
+    </LinearLayout>  
+ 	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/bolangxian2" >
+    </LinearLayout>  
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="当前心情："
+             android:textSize="20sp"
+            android:textColor="#DE6210" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/UserStatus"
+             android:textSize="20sp"
+           
+            android:textColor="#796e6e" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="登录号码："
+             android:textSize="20sp"
+            android:textColor="#DE6210" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/UserID"
+             android:textSize="20sp"
+    
+            android:textColor="#796e6e" />
+    </LinearLayout>
+     <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="最近访客："
+             android:textSize="20sp"
+            android:textColor="#DE6210" />
+
+        <Button
+            android:id="@+id/btnVister"
+            style="@style/button"
+            android:layout_width="120px"
+            android:layout_height="30dp"
+            android:background="@drawable/buton_back"
+            android:text="查看" />
+    </LinearLayout>
+         <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="联系我们："
+             android:textSize="20sp"
+            android:textColor="#DE6210" />
+
+        <Button
+            android:id="@+id/btnConnectUs"
+            style="@style/button"
+            android:layout_width="120px"
+            android:layout_height="30dp"
+            android:background="@drawable/buton_back"
+            android:text="GO..." />
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="86dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnMereset"
+            style="@style/button"
+            android:layout_width="120px"
+            android:layout_height="30dp"
+            android:background="@drawable/buton_back"
+            android:text="注 销" />
+
+        <Button
+            android:id="@+id/btnMeexit"
+            style="@style/button"
+            android:layout_width="120px"
+            android:layout_height="30dp"
+            android:background="@drawable/buton_back"
+            
+            android:text="退 出" />
+    </LinearLayout>
+
+</LinearLayout>

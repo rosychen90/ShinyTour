@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTitle" />
+
+        <EditText
+            android:id="@+id/etModifyTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etModifyDiary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.67"
+        android:hint="@string/hintDiary"
+        android:lines="8" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnModifyDiary"
+            style="@style/button"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+             android:background="@layout/imgbutton"
+            android:text="@string/btnPublishMofify" />
+
+        <Button
+            android:id="@+id/btnModifyDiaryBack"
+            style="@style/button"
+            android:layout_width="120px"
+             android:background="@layout/imgbutton"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBack" />
+    </LinearLayout>
+
+</LinearLayout>

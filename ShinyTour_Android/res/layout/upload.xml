@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/back"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        style="@style/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvChooseAlbum" />
+
+	    <Spinner
+	        android:id="@+id/AlbumSpinner"
+	        android:layout_width="170px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.14" />
+
+	    <Button
+	        android:id="@+id/btnNewAlbum"
+	        style="@style/button"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_weight="0.50"
+	        android:text="@string/btnNewAlbum" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/tvPhotoName"
+	        style="@style/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPhotoName" />
+
+	    <EditText
+	        android:id="@+id/etPhotoName"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.89" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/tvPhotoDes"
+	        style="@style/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPhotoDes" />
+
+	    <EditText
+	        android:id="@+id/etPhotoDes"
+	        android:layout_width="150dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.84" />
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/tvPhotoLocation"
+	        style="@style/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPhotoLocation" />
+
+	    <TextView
+	        android:id="@+id/etPhotoLocation"
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="@drawable/bolangxian">
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:baselineAligned="false"
+	    android:paddingTop="10dp"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/btnConfirmUpload"
+	        style="@style/button"
+	        android:layout_width="120dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.10"
+	        android:text="@string/btnUploadPhoto" />
+
+	    <Button
+	        android:id="@+id/btnUploadBack"
+	        style="@style/button"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.02"
+	        android:text="@string/btnBack" />
+
+	</LinearLayout>
+
+	</LinearLayout>

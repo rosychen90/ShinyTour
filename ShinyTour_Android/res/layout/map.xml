@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="398dp"
+        android:layout_weight="0.82"
+        android:apiKey="0aZIT-h66zWXEcRCQdNzX4xiCypQnvgvDvCNDRw"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAlbumBack"
+            style="@style/button"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+             android:background="@layout/imgbutton"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/sample_button0"
+            style="@style/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+             android:background="@layout/imgbutton"
+            android:text="定位" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" > <!-- 声明一个线性布局 -->
+
+    <ImageView 
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0.37" /> <!-- 声明用于显示照相机镜头画面的SurfaceView -->
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="@drawable/bolangxian">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:orientation="horizontal" >
+
+      <Button
+          android:id="@+id/btnShootBack"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:text="@string/btnBack"
+          android:textColor="#796e6e"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnUploadPhoto"
+            style="@style/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnUploadPhoto"
+            android:textColor="#796e6e"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+         
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/tvAlbum" />
+
+        <Spinner
+            android:id="@+id/spAlbum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <Gallery
+        android:id="@+id/galleryPhoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:paddingTop="5dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:spacing="5dp"
+        android:unselectedAlpha="128" />
+
+    <ImageSwitcher
+        android:id="@+id/isPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAlbumBack"
+            style="@style/button"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+             android:background="@layout/imgbutton"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/btnDeletePhoto"
+            style="@style/button"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+             android:background="@layout/imgbutton"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/sample_button1"
+            style="@style/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+             android:background="@layout/imgbutton"
+            android:text="查看地图" />
+    </LinearLayout>
+
+</LinearLayout>
